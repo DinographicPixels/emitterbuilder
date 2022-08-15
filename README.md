@@ -68,5 +68,3 @@ Event1.emit('send_message', 'hi bro!');
 ## [Check the 'docs' for more information.](https://github.com/DinographicPixels/emitterbuilder/wiki)
 ### [Report issue or send a feature request](https://github.com/DinographicPixels/emitterbuilder/issues)
 ### [Discord server](https://discord.gg/UgPRaGRkrQ)
-
-[![Rate this package](https://badges.openbase.com/js/rating/emitterbuilder.svg?style=openbase&token=/TTdTER3Ha+OAVXAsUJWT5I0RPlmFxuj8RsNTJvfLww=)](https://openbase.com/js/emitterbuilder?utm_source=embedded&amp;utm_medium=badge&amp;utm_campaign=rate-badge)
