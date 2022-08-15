@@ -41,7 +41,7 @@ Event1.removeONCElisteners('hi') // removes all '.once' listeners receiving 'hi'
 ``` javascript
 Event1.resetListeners(); // resets/removes every listeners & resetListeners() returns a boolean.
 Event1.resetONlisteners(); // resets/removes every '.on' listeners.
-Event1.resetONlisteners(); // resets/removes every '.once' listeners.
+Event1.resetONCElisteners(); // resets/removes every '.once' listeners.
 ```
 
 ### Misc
