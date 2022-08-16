@@ -1,6 +1,10 @@
 # emitterbuilder
 #### Made to create event emitter easily.
 
+## What's new?
+- `.emit` supports extra args.
+- docs are up to date.
+
 ## How to use it? Get started.
 ### Install package:
 With npm: `npm install emitterbuilder@latest`

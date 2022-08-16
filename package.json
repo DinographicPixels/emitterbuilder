@@ -1,6 +1,6 @@
 {
   "name": "emitterbuilder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Made to create event emitter easily.",
   "main": "./dist/main.js",
   "directories": {
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/DinographicPixels/emitterbuilder#readme",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   }
 }

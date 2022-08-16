@@ -63,15 +63,15 @@ export = class emitterbuilder {
         this._events['once'] = {}; return true;
     }
   
-    emit(name: string | number, data: any) {
+    emit(name: string | number, ...args: any[]) {
       if (!this._events['on'][name] && !this._events['once'][name]) {
         if (this.options.ignoreWarns == false){
             return console.log(`EmitterBuilder Warning: Emit cannot be received. [${name}]`);
         }else return;
       }
   
-      const fireCallbacks = (callback: (arg0: any) => void) => {
-        callback(data);
+      const fireCallbacks = (callback: (...args: any[]) => void) => {
+        callback(...args);
       };
 
       if (this._events['on'][name]){

@@ -11,7 +11,8 @@ Event1.emit('hi', "that won't work") // error: emit cannot be received. (if you 
 
 ///////////////
 Event1.on('hi', (user)=> {console.log(`hi, ${user}`)})
-Event1.on('goodbye', (user)=> {console.log(`bye, ${user}`)})
+Event1.on('goodbye', (user, extrargs, doce)=> {console.log('bye!', user, extrargs, doce)})
+Event1.emit('goodbye', 'james', 'some extra args there', 'and here!')
 
 
 

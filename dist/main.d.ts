@@ -15,7 +15,7 @@ declare const _default: {
         resetListeners(): boolean;
         resetONlisteners(): boolean;
         resetONCElisteners(): boolean;
-        emit(name: string | number, data: any): void;
+        emit(name: string | number, ...args: any[]): void;
         manager(): {
             _events: any;
             options: {
