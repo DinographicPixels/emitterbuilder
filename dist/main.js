@@ -62,7 +62,6 @@ module.exports = class emitterbuilder {
                 return;
         }
         const fireCallbacks = (callback) => {
-            console.log('cback:', args);
             callback(...args);
         };
         if (this._events['on'][name]) {

@@ -4,6 +4,7 @@
 ## What's new?
 - `.emit` supports extra args.
 - docs are up to date.
+- no more useless cback logging
 
 ## How to use it? Get started.
 ### Install package:
