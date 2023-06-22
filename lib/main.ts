@@ -1,6 +1,6 @@
 'use strict'
 
-export = class emitterbuilder {
+export class EmitterBuilder {
     _events: any; options: { ignoreWarns: boolean }
     constructor(options = {ignoreWarns: false}) {
         this._events = {on: {}, once: {}};
@@ -50,7 +50,7 @@ export = class emitterbuilder {
 
     resetListeners(){
         this._events = {on: {}, once: {}};
-        if (this._events == {on: {}, once: {}}){
+        if (this._events == ({on: {}, once: {}} as object)){
             return true;
         }else return false;
     }

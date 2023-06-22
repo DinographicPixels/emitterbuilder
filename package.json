@@ -1,6 +1,6 @@
 {
   "name": "emitterbuilder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Made to create event emitter easily.",
   "main": "./dist/main.js",
   "directories": {

@@ -1,5 +1,7 @@
 'use strict';
-module.exports = class emitterbuilder {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EmitterBuilder = void 0;
+class EmitterBuilder {
     constructor(options = { ignoreWarns: false }) {
         this._events = { on: {}, once: {} };
         this.options = options;
@@ -78,4 +80,5 @@ module.exports = class emitterbuilder {
             options: this.options
         };
     }
-};
+}
+exports.EmitterBuilder = EmitterBuilder;
