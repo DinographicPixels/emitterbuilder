@@ -14,8 +14,8 @@ With yarn: `not available yet.`
 
 ### Import package & create event emitter:
 ```javascript
-const emitterbuilder = require('emitterbuilder') // importing
-const Event1 = new emitterbuilder() // create event, you can create many as you want.
+const { EmitterBuilder } = require("emitterbuilder"); // importing
+const Event1 = new EmitterBuilder() // create event, you can create many as you want.
 ```
 
 ### Receive & emit events.
@@ -56,8 +56,8 @@ Event1.manager() // returns an Object with _events & options. Can be used to deb
 
 ### Example of usage:
 ```javascript
-const emitterbuilder = require('emitterbuilder');
-const Event1 = new emitterbuilder();
+const { EmitterBuilder } = require('emitterbuilder');
+const Event1 = new EmitterBuilder();
 
 Event1.on('send_message', (message)=> {
    console.log(message);
